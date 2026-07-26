@@ -65,7 +65,7 @@ git clone https://github.com/GitIdol/Claude-Codec.git
 
 # Copy scripts to global location
 mkdir -p ~/bin/claude-tools
-cp ClaudeCodec-*/scripts/*.{js,sh} ~/bin/claude-tools/
+cp Claude-Codec/scripts/*.{js,sh} ~/bin/claude-tools/
 chmod +x ~/bin/claude-tools/*.sh
 
 # Add alias to your shell
