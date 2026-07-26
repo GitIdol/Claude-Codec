@@ -22,6 +22,12 @@ When this happens:
 
 If you're a "long-type collaborator" who works with Claude across days or weeks, this is devastating. You lose not just the conversation, but the *journey*.
 
+### What's changed since — and what hasn't
+
+Claude Code has moved on since this was built. The Desktop app's Code mode now surfaces more of a session than it once did, so part of the original gap has genuinely narrowed — worth saying plainly rather than pretending otherwise.
+
+What still isn't native is the **archive**: a durable record on your own disk, in two forms, searchable months later when you're trying to reconstruct *why* you built something the way you did. Recovering that by hand still means spelunking into the Claude library folder, decoding a conversation's numeric ID, and extracting it yourself. That's the part this handles.
+
 ---
 
 ## ✨ The Solution
@@ -55,7 +61,7 @@ Just the dialogue:
 
 ```bash
 # Clone the repo
-git clone https://github.com/GitIdol/ClaudeCodec-Conversation-Documentation-Extraction-Companion-.git
+git clone https://github.com/GitIdol/Claude-Codec.git
 
 # Copy scripts to global location
 mkdir -p ~/bin/claude-tools
